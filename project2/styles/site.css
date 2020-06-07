@@ -1,0 +1,136 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}
+
+main {
+    padding: 3%;
+}
+
+h2 {
+    color: #22424c;
+    text-align: center;
+    font-variant: small-caps;
+    margin-bottom: 1%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+td, th {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid white;
+}
+
+th {
+    background-color: #31798e;
+    color: white;
+}
+
+
+tr:nth-child(even) {
+    background: #a3e7fc;
+}
+
+.errorContainer {
+    display: inline-block;
+    color: #d5493e;
+    padding-left: 215px;
+    text-align: center;
+
+}
+
+.hidden {
+    display: none !important;
+}
+
+#add_form label {
+    display: inline-block;
+    text-align: right;
+    width: 200px;
+    font-weight: bold;
+}
+
+#search_form {
+    width: 100%;
+    margin: 3% 0;
+}
+
+#search_form select, input {
+    margin-right: 30px;
+}
+
+#search_form select {
+    font-size: 15px;
+    padding: 3px 8px;
+    border-radius: 0;
+    color: #259fc4;
+}
+
+#search_form option {
+    font-size: 15px;
+}
+
+#search_form input {
+    font-size: 15px;
+    padding: 4px 8px;
+    border: 1px solid #31798e;
+}
+
+#search_form button {
+    background-color: #31798e;
+    border: none;
+    padding: 5px 12px;
+    font-size: 15px;
+    color: white;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+#add_form {
+    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 5%;
+}
+
+#add_form label{
+    color: #31798e;
+}
+
+#add_form .form-label {
+    margin: 10px 0px;
+}
+
+#add_form button {
+    margin-left: 50%;
+    background-color: #31798e;
+    color: white;
+    border: none;
+    padding: 7px;
+    font-size: 15px;
+}
+
+#add_form input {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.message {
+    color: #31798e;
+    margin: 5px 0;
+}
+
+.no_match {
+    text-align: center;
+    margin-bottom: 100px;
+}

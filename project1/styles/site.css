@@ -1,0 +1,364 @@
+* {
+    font-family: Comic Sans MS, Comic Sans, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+/* Header and Navigation Bar */
+header {
+    width: 100%;
+    background-color: #83c65b;
+
+    color: white;
+}
+
+nav {
+    margin-left: 60%;
+    margin-right: 4%;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    flex: 1;
+    text-align: center;
+    padding: 17px 0px;
+    font-size: 15px;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+}
+
+nav li a:hover {
+    color: #1d2e12;
+}
+
+
+.top {
+    /* Background Image Source: (original work) Dayoon Kim */
+    background: url(../images/index_title.png) no-repeat center center;
+    background-size: cover;
+    text-align: center;
+    height: 15em;
+}
+
+.top p {
+    margin: 0;
+    text-align: center;
+    font-size: 50px;
+    padding: 1.5em 0em;
+}
+
+.index_middle {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin-top: 3em;
+}
+
+/* Date Time  */
+.index_date_time {
+    border: double 7px #b0d599;
+    border-radius: 25px;
+    /* background-color: #ceecbc; */
+    margin-left: 1em;
+    margin-right: 1em;
+    min-width: 300px;
+    flex: 1;
+}
+
+.index_date_time div {
+    padding-left: 1em;
+}
+
+.index_date_time h3, .index_date_time p {
+    line-height: 2em;
+}
+
+.index_times {
+    margin-top: 2em;
+}
+
+.index_times .em {
+    text-transform: uppercase;
+}
+
+.em {
+    color: #05a20c;
+}
+
+.index_info {
+    flex: 3;
+    margin: 0em 1em;
+    display: flex;
+    /* flex-direction: row; */
+}
+
+.index_info img {
+    margin: 0em 1em;
+    width: 47%;
+}
+
+.index_bottom {
+    margin: 6em 2em 0em 2em;
+}
+
+.index_bottom h2 {
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.index_bottom_info {
+    margin: 1.5em 0em;
+    display: flex;
+    text-align: center;
+}
+
+.index_bottom_img img {
+    width: 90%;
+}
+
+.source {
+    color: gray;
+    font-size: 0.8em;
+}
+
+.index_bottom p {
+    margin: 1.7em 1em 1.7em 1em;
+    line-height: 2em;
+
+}
+
+/* Footer */
+footer {
+  color: #ffffff;
+  background-color: #83c65b;
+  font-family: verdana, sans-serif;
+  text-align: center;
+  font-size: .8em;
+  margin-top: 6em;
+  padding: 1.5em;
+}
+
+.two_col {
+    margin: 2em 4em;
+}
+
+.two_col h2 {
+    color: #1f6b25;
+    flex: 1;
+}
+
+.two_col .row p {
+    flex: 3;
+    line-height: 3em;
+}
+
+.two_col h3 {
+    line-height: 2em;
+    margin-bottom: 2em;
+}
+
+.row {
+    display: flex;
+    margin-bottom: 2em;
+}
+
+.caution {
+    color: #d5493e;
+}
+
+
+.map {
+    width: 75%;
+}
+
+
+.mapSource {
+    margin-left: 75%;
+}
+
+.tipsmap {
+    margin-left: 10%;
+}
+
+.TipTitle {
+    margin: 2em 2em;
+}
+
+.form {
+    margin-top: 2em;
+}
+
+.visitFormSection {
+    max-width: 900px;
+    line-height: 2.5em;
+    margin-left: 20%;
+}
+
+.visitFormTitle {
+    color: #1f6b25;
+}
+
+#visitForm {
+    display: flex;
+    flex-direction: column;
+}
+
+#visitForm label {
+    display: inline-block;
+    text-align: right;
+    width: 200px;
+    font-weight: bold;
+}
+
+#visitForm input, #visitForm select {
+    margin-left: 20px;
+}
+
+#visitForm .visit-form-date {
+    display: flex;
+    flex-direction: column;
+    padding-left: 210px;
+    margin-top: -30px;
+}
+
+#visitForm button.submit {
+  margin-top: 20px;
+  margin-left: 300px;
+  width: 100px;
+}
+
+.foods {
+    margin-top: 3em;
+}
+
+.first, .second, .third {
+    display: flex;
+    flex: 1;
+}
+
+.eat {
+    margin: 6% 4%;
+    display: flex;
+}
+
+.eat img {
+    flex: 1;
+    margin-right: 1em;
+}
+
+.eat_info {
+    flex: 2;
+}
+
+.eat_info h2 {
+    color: #55952f;
+    margin: 0 4%;
+    margin-bottom: 1em;
+}
+
+.eat p {
+    margin: 2% 4%;
+    text-align: left;
+    line-height: 1.6em;
+}
+
+.eat .source {
+    margin: 0 4%;
+}
+
+.food_info {
+    margin-top: 0.5em;
+    color: #30302f;
+}
+
+.food_p {
+    margin: 0;
+    padding: 3em 3em 0 3em;
+    line-height: 2.5em;
+}
+
+.food_p h2 {
+    color: #1f6b25;
+}
+
+.food_list {
+    display: flex;
+    flex-direction: row;
+}
+
+.food_list_1 {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+}
+
+.food_list_2 {
+    flex: 1;
+}
+
+.food_list_2 p {
+    text-align: center;
+}
+
+.food_list_source {
+    margin-left: 80%;
+}
+
+.review, .food_map {
+    padding: 2em 3em 0 3em;
+}
+
+.review h2, .food_map h2 {
+    color: #1f6b25;
+
+}
+
+.food_map img {
+    display: block;
+    margin: 0 auto;
+}
+.food_map a {
+    margin-left: 75%;
+}
+
+.now {
+    color: #1d2e12;
+}
+
+.visit_map_info {
+    margin: 0 0 0 0%;
+    line-height: 1.2em;
+
+}
+
+.hidden {
+    display: none !important;
+  }
+
+.errorContainer {
+    display: inline-block;
+    color: #d5493e;
+    padding-left: 5px;
+    text-align: center;
+}
+
+.current_page {
+    font-weight: bold;
+}
+
+.current_page a {
+    color: #1d2e12;
+}
